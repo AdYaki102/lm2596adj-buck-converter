@@ -45,7 +45,24 @@ Process of the component selection was based on the LM2596ADJ official datasheet
 ---
 ## Switching Loop
 ### Inductor
-TI offers a simple choosing procedure for inductor procedure based on E*T constant. 
+LM2596 datasheet offers a simplified procedure for choosing an inductor using a provided nomograph. 
+
+<img width="338" height="267" alt="image" src="https://github.com/user-attachments/assets/21999bfd-d51d-4234-b509-7ff4c5921e72" />
+
+Calculating the E*T for desired range of operating conditions:
+
+<img width="489" height="54" alt="image" src="https://github.com/user-attachments/assets/07b5ad6b-1f82-41c2-b57a-e0055caf8855" />
+
+Where:
+- V<sub>d</sub>= diode forward voltage drop = 0.55V 
+- V<sub>sat</sub>= internal switch saturation voltage=1.16V
+
+Yields the following graph:
+
+<img width="200" height="140" alt="image" src="https://github.com/user-attachments/assets/de86072e-ece1-42bb-b5c3-4a707a631a3f" />
+
+Based on the worst case scenario current load of 3A the inductor of choice should be L39 or L44, they correspond to 47uH and 68uH inductors respectively. Nevertheless, 100uH inductor was chosen to reduce peak-to-peak inductor ripple and provide extra margin against entering discontinuous conduction mode at low output currents and high output voltages. 
+
 ## Simulations
 LTspice was used as a primary tool to test the circuit under worst case scenario loads and observe switching activity and stability of LM2596 module under these loads. Theoretical data from the simulations can be found in simulations branch of this repo.
 Data measured is the following:
