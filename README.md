@@ -96,15 +96,19 @@ High current paths were routed using wider copper traces to reduce resistive los
 
 ---
 ### Pictures
-<img width="980" height="800" alt="image" src="https://github.com/user-attachments/assets/8827cde0-c4cb-4879-a30e-af4a5cf3cdd3" /> 
+<img width="980" height="800" alt="image" src="https://github.com/user-attachments/assets/8b595a0c-cbe1-4d98-b519-027e54958626" />
+
  <p align="center"><b>Figure 1: PCB Layout</b></p>
 
 
 
 
-<img width="980" height="800" alt="image" src="https://github.com/user-attachments/assets/28f003c8-d803-4d0b-b644-33edd4ac0b14" /> 
+
+<img width="980" height="800" alt="image" src="https://github.com/user-attachments/assets/3a950268-7ff4-4e59-98e8-73625dcca61a" />
 
 <p align="center"><b>Figure 2: PCB Front</b></p>
 
-<img width="980" height="800" alt="image" src="https://github.com/user-attachments/assets/43f5219c-0205-479d-8790-6c540c272b72" />
+
+<img width="980" height="800" alt="image" src="https://github.com/user-attachments/assets/7ddd698d-ac47-41ed-8525-e186d63fee40" />
+
 <p align="center"><b>Figure 3: PCB Back</b></p>
